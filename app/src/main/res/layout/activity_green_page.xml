@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GreenPage">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="@dimen/numtextheight"
+            android:shadowColor="@color/ripple_material_light"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="15"
+            android:text="@string/testnumber"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:textSize="@dimen/numtextsize" />
+
+        <TextView
+            android:id="@+id/days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:height="@dimen/daysuntilheight"
+            android:shadowColor="@color/ripple_material_light"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="15"
+            android:text="@string/days"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:textSize="@dimen/daystextsize" />
+
+        <TextView
+            android:id="@+id/until"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:height="@dimen/daysuntilheight"
+            android:shadowColor="@color/ripple_material_light"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="15"
+            android:text="@string/until"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:textSize="@dimen/untiltextsize" />
+
+        <TextView
+            android:id="@+id/christmas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-16dp"
+            android:height="@dimen/christmasheight"
+            android:shadowColor="@color/ripple_material_light"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="15"
+            android:text="@string/christmas"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:textSize="@dimen/christmastextsize" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/present"
+            android:layout_marginTop="8dp"
+            android:shadowColor="@color/ripple_material_light"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:gravity="center"
+            android:shadowRadius="15"
+            android:contentDescription="@string/presentDescription" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

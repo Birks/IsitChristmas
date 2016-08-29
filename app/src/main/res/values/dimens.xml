@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="numtextsize">144sp</dimen>
+    <dimen name="daystextsize">66sp</dimen>
+    <dimen name="untiltextsize">58sp</dimen>
+    <dimen name="christmastextsize">29sp</dimen>
+
+    <dimen name="numtextheight">156dp</dimen>
+    <dimen name="daysuntilheight">72dp</dimen>
+    <dimen name="christmasheight">32dp</dimen>
+
+</resources>
